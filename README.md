@@ -35,7 +35,7 @@ Exploited VSFTPD 2.3.4 (CVE-2011-2523) to gain root access using Metasploit.
 
 
 ## Defensive Operations
-- **[Splunk (BOTSv3)](ttps://github.com/Tamarasza999/splunk)**  
+- **[Splunk (BOTSv3)](https://github.com/Tamarasza999/splunk)**  
     The investigation confirmed attacker activity including automated beaconing, AWS credential misuse, cloud reconnaissance, and abnormal PowerShell execution.
 
 - **[Endpoint Security]()**  
