@@ -1,82 +1,78 @@
-<h1>Hi, I am Tamara!<br/>
-Focused on 
-<a href="#defensive-operations">Defensive Security</a> | 
-<a href="#offensive-security">Offensive Security</a> | 
-<a href="#network-security">Network Security</a> | 
-<a href="#cloud-security">Cloud Security</a> |
-<a href="software-engineering">Software Engineering</a >
-</h1>
+<p align="right">
+  <a href="https://tryhackme.com/p/sza.tamara99">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/sza.tamara99.png" alt="TryHackMe Badge" width="250"/>
+  </a>
+</p>
+
+# Hi, I am Tamara!
+Focused on [Defensive Security](#defensive-operations) | [Offensive Security](#offensive-security) | [Network Security](#network-security) | [Cloud Security](#cloud-security) | [Software Engineering](#software-engineering)
 
 
-<h2 id="network-security">🔵 Network Security</h2>
-<ul>
-  <li>
-     <b><a href="https://github.com/Tamarasza999/netlock-wlan" target="_blank">Network Hardening and WLAN Security</a></b><br/>
-   Strengthened enterprise networks with AAA-based RADIUS authentication and RBAC. Deployed WPA2-Enterprise WLAN and isolated guest traffic. Simulated Zero Trust enforcement.
-  </li>
-  <li><b><a href="https://github.com/Tamarasza999/netlock-wlan#firewall--idsips-deployment" target="_blank">Firewall & IDS/IPS Deployment</a></b><br/>
-    Configured Cisco ASA firewall zones with micro-segmentation rules.<br/>
-    Deployed Suricata with custom rules to detect SYN floods.
-  </li>
-  <li><b>Network Scanning & Enumeration</b><br/>
-    Conducted scans using Nmap and Netcat; mapped vulnerable services and configurations.
-  </li>
-  <li><b>OSI (Open Systems Interconnection) Model Testing</b><br/>
-    Applied OSI concepts in layered troubleshooting tasks.
-  </li>
-</ul>
+## Network Security
 
-<h2 id="offensive-security">🔴 Offensive Security</h2>
-<ul>
-  <li>
-    <b><a href="https://github.com/Tamarasza999/web-net-exploit#network-service-exploitation" target="_blank">Metasploitable2 Exploitation</a></b><br/>
-    Exploited VSFTPD 2.3.4 (CVE-2011-2523) to gain root access using Metasploit.
-  </li>
-  <li>
-    <b><a href="https://github.com/Tamarasza999/web-net-exploit" target="_blank">Web Application Testing</a></b><br/>
-    Uncovered SQL Injection, Cross-Site Scripting, and Insecure Direct Object Reference vulnerabilities in DVWA using Burp Suite and OWASP ZAP.
-  </li>
-  <li>
-    <b>Buffer Overflow Exploitation</b><br/>
-    Practiced exploitation of buffer overflow vulnerabilities in controlled lab environments.
-  </li>
-  <li>
-    <b>Command-and-Control (C2) server</b><br/>
-    Developed a Python reverse shell agent for Windows targets that connects back to a Kali Linux C2 server.
-  </li>
-</ul>
+- **[Network Hardening and WLAN Security](https://github.com/Tamarasza999/netlock-wlan)**  
+  Strengthened enterprise networks with AAA-based RADIUS authentication and RBAC. Deployed WPA2-Enterprise WLAN and isolated guest traffic. Simulated Zero Trust enforcement.
 
-<h2 id="defensive-operations">🛡️ Defensive Operations</h2>
-<ul>
-  <li><b>SIEM-Based Anomaly Analysis (Elastic + Splunk)</b><br/>
-    Investigated and correlated anomalous network behavior using Elastic SIEM dashboards and Splunk SPL
-  </li>
-  <li><b>Malware Analysis Lab</b><br/>
-    Created a sandbox environment to analyze malware behavior.
-  </li>
-  <li><b>Security Automation Using SOAR and EDR </b><br/>
-  Integrated LimaCharlie EDR with Tines to automate incident response workflows. Designed end-to-end detection-to-response pipelines and validated real-time alerting and containment actions.
-  </li>
-  <li><b>pfSense Firewall Deployment</b><br/>
-Configured pfSense firewall with VLAN segmentation and custom rules for network protection.
-  </li>
-</ul>
+- **[Firewall & IDS/IPS Deployment](https://github.com/Tamarasza999/netlock-wlan#firewall--idsips-deployment)**  
+  Configured Cisco ASA firewall zones with micro-segmentation rules.  
+  Deployed Suricata with custom rules to detect SYN floods.
 
-<h2 id="cloud-security">☁️ Cloud Security</h2>
-<ul>
-  <li><b>Azure VPN Tunnel Setup with OpenVPN.<br/>
-  </li>
-</ul>
+- **[OSI Troubleshooting Trainer](https://github.com/Tamarasza999/osi-trainer)**  
+  A Docker-based network troubleshooting simulator for practicing OSI layer diagnostics.  
+  Generates realistic failures across all 7 OSI layers inside isolated Alpine Linux containers and allows structured diagnosis and remediation within a controlled lab environment.
 
-<h2 id="software-engineering">💻 Software Engineering</h2>
-<li>
-  <b><a href="https://github.com/Tamarasza999/password-manager" target="_blank">Password Manager App</a></b><br/>
+
+## Offensive Security
+
+- **[Metasploitable2 Exploitation](https://github.com/Tamarasza999/web-net-exploit#network-service-exploitation)**  
+Exploited VSFTPD 2.3.4 (CVE-2011-2523) to gain root access using Metasploit.
+
+- **[Web Application Testing](https://github.com/Tamarasza999/web-net-exploit)**  
+  Uncovered SQL Injection, Cross-Site Scripting, and Insecure Direct Object Reference vulnerabilities in DVWA using Burp Suite and OWASP ZAP.
+
+- **[TryHackMe Red](https://github.com/Tamarasza999/thm-red.blue/blob/main/README.md#offensive-security)**  
+    CTF-style security challenges focused on identifying vulnerabilities and escalating access within target systems
+
+
+## Defensive Operations
+- **[Splunk (BOTSv3)](ttps://github.com/Tamarasza999/splunk)**  
+    The investigation confirmed attacker activity including automated beaconing, AWS credential misuse, cloud reconnaissance, and abnormal PowerShell execution.
+
+- **[Endpoint Security]()**  
+cybersecurity lab featuring two VMs: using CrowdSec IPS and SafeLine WAF and validated on first Vm and  defenses simulating SQL injection, brute force and port scan attacks from a second isolated VM.
+
+- **[TryHackMe Blue](https://github.com/Tamarasza999/thm-red.blue/blob/main/README.md#defensive-security)**  
+Incident investigation, digital forensics, and malware analysis. Analyzed compromised systems, memory dumps, and binaries to identify attacker activity and security weaknesses.
+
+## Cloud Security
+
+- **[Secure Bank](https://github.com/Tamarasza999/secure_bank)**  
+  Full-stack secure banking simulation with authentication, backend API integration, and secure frontend communication.
+
+- **[Real-Time Global Whiteboard](https://github.com/Tamarasza999/whiteboard)**  
+  Real-time collaborative whiteboard built on Cloudflare Workers with Durable Objects.  
+Uses edge WebSockets and stateful objects for low-latency global synchronization and isolated room architecture.
+
+- **[Multi-Tier Application Lab (LocalStack)](https://github.com/Tamarasza999/terraform-localstack-multi-tier-app)**  
+  Simulated full multi-tier cloud architecture locally including web, application, and database layers.  
+  Used infrastructure-as-code patterns to provision and test cloud components without deploying to production environments.
+
+- **[Serverless CRUD API (LocalStack)](https://github.com/Tamarasza999/localstack-crud-api)**  
+  Implemented a serverless API using Lambda-style functions, API Gateway emulation, and DynamoDB in a local cloud environment.  
+  Practiced API lifecycle testing and event-driven service integration.
+
+- **[Document Processing Lab (Terraform)](https://github.com/Tamarasza999/terraform-doc-processing-lab)**  
+  Built an event-driven document ingestion and processing pipeline using Terraform for automated infrastructure provisioning.  
+  Explored cloud automation, storage workflows, and event-triggered compute execution.
+
+
+## Software Engineering
+
+- **[Password Manager App](https://github.com/Tamarasza999/password-manager)**  
   Local password manager with encryption, master key access, and password generator. Built with Python and Tkinter. (Python)
-</li>
-  <li><b><a href="https://github.com/Tamarasza999/ransomware-sim" target="_blank">Ransomware Simulator</a></b><br/>
-    AES-256 encryption/decryption of folder files for educational use. (C#)
-  </li>
-  <li><b><a href="https://github.com/Tamarasza999/keylogger" target="_blank">Keylogger</a></b><br/>
-    Buffered keystroke logger with timed file writes, silent mode, and efficient capture using periodic flush. (Python)
-  </li>
-</ul>
+
+- **[Ransomware Simulator](https://github.com/Tamarasza999/ransomware-sim)**  
+  AES-256 encryption/decryption of folder files for educational use. (C#)
+
+- **[Keylogger](https://github.com/Tamarasza999/keylogger)**  
+  Buffered keystroke logger with timed file writes, silent mode, and efficient capture using periodic flush. (Python)
