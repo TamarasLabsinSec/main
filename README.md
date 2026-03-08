@@ -1,6 +1,6 @@
 <p align="right">
   <a href="https://tryhackme.com/p/sza.tamara99">
-    <img src="https://tryhackme-badges.s3.amazonaws.com/sza.tamara99.png" alt="TryHackMe Badge" width="250"/>
+    <img src="https://tryhackme-badges.s3.amazonaws.com/sza.tamara99.png" alt="TryHackMe Badge" width="300"/>
   </a>
 </p>
 
