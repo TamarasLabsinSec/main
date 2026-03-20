@@ -38,8 +38,8 @@ Exploited VSFTPD 2.3.4 (CVE-2011-2523) to gain root access using Metasploit.
 - **[Splunk (BOTSv3)](https://github.com/TamarasLabsinSec/splunk)**  
     The investigation confirmed attacker activity including automated beaconing, AWS credential misuse, cloud reconnaissance, and abnormal PowerShell execution.
 
-- **[Endpoint Security]()**  
-cybersecurity lab featuring two VMs: using CrowdSec IPS and SafeLine WAF and validated on first Vm and  defenses simulating SQL injection, brute force and port scan attacks from a second isolated VM.
+- **[Endpoint Security](https://github.com/TamarasLabsinSec/endpoint-lab)**  
+Cybersecurity lab featuring 3 VMs: Using UFW firewall, Fail2ban IPS, Auditd, Osquery, and ClamAV to monitor, detect, and automatically block simulated attacks in an isolated network environment.
 
 - **[TryHackMe Blue](https://github.com/TamarasLabsinSec/thm-red.blue/blob/main/README.md#defensive-security)**  
 Incident investigation, digital forensics, and malware analysis. Analyzed compromised systems, memory dumps, and binaries to identify attacker activity and security weaknesses.
